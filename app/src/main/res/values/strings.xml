@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Git_Test</string>
     <string name="action_settings">Settings</string>
+    <string name="action_display">Go to display</string>
+    <string name="action_message">Show message</string>
+    <string name="action_imagechange">Image Change</string>
 </resources>
