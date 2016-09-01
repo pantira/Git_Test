@@ -61,8 +61,13 @@ public class MainActivity extends AppCompatActivity {
     int i =0;
     public void change(MenuItem item){
         ImageView pic = (ImageView)findViewById(R.id.imageView);
-        if(i==0)
-        pic.setImageResource(R.drawable.pp);
+        if(i==0) {
+            pic.setImageResource(R.drawable.pp);
+            i = 1;
+        }
+        else {
+            pic.setImageResource(R.drawable.ic_launcher);
+        }
     }
 
     @Override
